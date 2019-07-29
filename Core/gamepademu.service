@@ -1,0 +1,10 @@
+[Unit]
+Description=Gamepad Emulator for iOS GH Live Guitar
+After=bluetooth.service
+
+[Service]
+Type=idle
+ExecStart=/opt/iosghctl/iosghsubsys
+
+[Install]
+WantedBy=bluetooth.target
