@@ -4,7 +4,7 @@ After=bluetooth.service
 
 [Service]
 Type=idle
-ExecStart=/opt/iosghctl/iosghsubsys
+ExecStart=/opt/gamepademu/iosghsubsys.py
 
 [Install]
 WantedBy=bluetooth.target
