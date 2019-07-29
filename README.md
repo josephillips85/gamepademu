@@ -19,5 +19,5 @@ Enable Wifi Connection and SSH access to this PI to perform this installation.
 
 
 ```bash
-sudo wget -O - https://raw.githubusercontent.com/josephillips85/gamepademu/master/install.sh | bash
+sudo wget -O - https://raw.githubusercontent.com/josephillips85/gamepademu/master/installer/install.sh | bash
 ```
