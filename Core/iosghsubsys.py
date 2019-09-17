@@ -83,7 +83,7 @@ def connect(address):
         adapter.stop()
 
 
-print "Gamepad Emulator v1.0 for iOS GH Live Guitar"
+print "Gamepad Emulator v1.1 for iOS GH Live Guitar"
 print "--------------------------------------------"
 print ""
 
