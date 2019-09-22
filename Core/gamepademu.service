@@ -3,8 +3,12 @@ Description=Gamepad Emulator for iOS GH Live Guitar
 After=bluetooth.service
 
 [Service]
-Type=idle
-ExecStart=/opt/gamepademu/iosghsubsys.py
+StandardInput=tty
+StandardOutput=tty
+StandardError=null
+TTYPath=/dev/tty12
+Type=simple
+ExecStart=nohup /opt/gamepademu/iosghsubsys.py
 
 [Install]
 WantedBy=bluetooth.target
