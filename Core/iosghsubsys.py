@@ -56,7 +56,7 @@ def discovery():
 
 def disconnected(handle):
     adapter.stop()
-    print "\r Controller has been disconnected."
+    print "Controller has been disconnected."
     searchguitar()
 
 
@@ -78,7 +78,7 @@ def connect(address):
         # Keep the execution.
         #x = input("")
         while True:
-            time.sleep(10)
+            time.sleep(0.01)
     finally:
         adapter.stop()
 
