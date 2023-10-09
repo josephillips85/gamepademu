@@ -14,7 +14,7 @@ A Raspberry PI Zero W,
 
 ## Installation
 
-Please follow all the instructions to install Raspbian Buster Lite Image into a Raspberry PI Zero W also you need to get
+Please follow all the instructions to install Raspbian Bullseye Lite Image into a Raspberry PI Zero W also you need to get
 Enable Wifi Connection and SSH access to this PI to perform this installation.
 
 
@@ -46,5 +46,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-Copyright 2019 Jose Phillips
+Copyright 2023 Jose Phillips
 GNU General Public License v3.0 See License
