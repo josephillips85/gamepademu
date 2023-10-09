@@ -64,7 +64,7 @@ if [ -e /etc/os-release ]; then
         systemctl enable gamepademu.service
 
         echo "Please restart your Rasbperry pi to changes take effect."
-        echo "If you like this software please donate https://paypal.me/josephillips85?locale.x=en_US
+        echo "If you like this software please donate https://paypal.me/josephillips85?locale.x=en_US"
 
 
     else
